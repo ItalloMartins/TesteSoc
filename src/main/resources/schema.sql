@@ -1,0 +1,1 @@
+create table exames (id bigint not null auto_increment, data_exame bigint, nome_exame varchar(255), nome_paciente varchar(255), resultado_exame varchar(255), primary key (id), UNIQUE INDEX `nome_paciente_UNIQUE` (`nome_paciente` ASC) VISIBLE);
